@@ -3,8 +3,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useRouter } from 'next/navigation';
-const API = 'http://localhost:3000';
-
+const API = 'https://retail-ai-backend-production.up.railway.app';
 interface Product {
   id: string;
   name: string;
