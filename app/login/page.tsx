@@ -4,8 +4,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import axios from 'axios';
 
-const API = 'http://localhost:3000';
-
+const API = 'https://retail-ai-backend-production.up.railway.app';
 export default function LoginPage() {
   const router = useRouter();
   const [password, setPassword] = useState('');
